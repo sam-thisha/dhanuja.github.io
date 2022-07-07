@@ -1,0 +1,36 @@
+.footer {
+    background-color: grey;
+    padding-top: 50;
+    padding-bottom: 50;
+    text-align: center;
+    color: white;
+}
+
+.fline1{
+    font-size: 24;
+}
+.fline2 {
+    font-size: 24;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.contactn{
+    background-color: white;
+    border: none;
+    color: black;
+    border-radius: 100px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;   
+}
+
+.contactn:hover{
+    background-color: #5a5a5a;
+    color: white;
+}
+

@@ -1,0 +1,141 @@
+body {
+
+    margin: 0;
+}
+
+.content1 {
+    background-image: url(/images/img1.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 140 140 175 175;
+    margin-left: 0;
+}
+
+.head1 {
+
+    color: black;
+    padding-left: 10;
+    font-family: monospace;
+}
+
+.head2 {
+    padding: 10;
+    color: black;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.fconsult, .contactn{
+    background-color: white;
+    border: none;
+    color: black;
+    border-radius: 100px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;   
+}
+
+.fconsult:hover,.contactn:hover{
+    background-color: #5a5a5a;
+    color: white;
+}
+
+.content2 {
+    background-color: white;
+    padding: 100 100 175 175;
+    text-align: justify;
+}
+
+.line1 {
+    font-size: 32;
+    font-family: 'Franklin Gothic Medium';
+}
+.line2 {
+    font-size: 22;
+    font-family:Arial;
+}
+.line3{
+
+    font-size: 18;
+    font-family:Arial;
+    font-weight: 900;
+}
+
+.content3 {
+    background-image: url(/images/img2.png);
+    padding: 100 100 175 175;
+    text-align: justify;
+    color: white;
+}
+
+.line4 {
+    font-size: 32;
+    font-style: italic;
+    font-family: Georgia;
+
+}
+.line5 {
+    font-size: 22;
+    font-family:Arial;
+}
+
+.content4 {
+    box-sizing: border-box;
+    padding: 100 100 100 100;
+    background-image: url(/images/img3.png);
+    color: white;
+    text-align: justify;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.content4::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.line6{
+    font-size: 28;
+    font-family: Georgia;
+}
+.line7 {
+    padding-top: 20;
+    font-size: 18;
+    font-family: Georgia;
+}
+
+.line8 {
+    padding-top: 20;
+    font-size: 18;
+    font-weight: bold;
+}
+.line9 {
+    padding-left: 175;
+    font-size: 18;
+    font-family: Georgia;
+}
+
+.content5 {
+    background-color: gray;
+    padding-top: 50;
+    padding-bottom: 50;
+    text-align: center;
+    color: white;
+}
+
+.line10{
+    font-size: 24;
+}
+.line11 {
+    font-size: 24;
+    font-family: Arial;
+    font-weight: bold;
+}
